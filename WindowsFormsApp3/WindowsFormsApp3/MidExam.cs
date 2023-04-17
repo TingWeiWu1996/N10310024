@@ -10,24 +10,28 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp3
 {
-    public partial class Form1 : Form
+    public partial class MidExam : Form
     {
-        public Form1()
+        public MidExam()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-         // MessageBox.Show("我被點擊了");
-            Form form_Button = new Form_Button();
-            form_Button.Show();
+        private void button2_Click(object sender, EventArgs e)
+        {   
+            string str = textBox1.Text;
+            double input = Int32.Parse(str);
+            lab_result.Text = (input  *(9 / 5.0) + 32) .ToString();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Form midExam = new MidExam();
-            midExam.Show();
+
+        }
+
+        private void MidExam_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -64,6 +64,12 @@
     <Compile Include="Form_TextBox.Designer.cs">
       <DependentUpon>Form_TextBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="MidExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MidExam.Designer.cs">
+      <DependentUpon>MidExam.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_TextBox.resx">
       <DependentUpon>Form_TextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MidExam.resx">
+      <DependentUpon>MidExam.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

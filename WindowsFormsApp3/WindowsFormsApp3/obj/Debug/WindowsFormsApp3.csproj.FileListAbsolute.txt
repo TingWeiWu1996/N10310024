@@ -11,3 +11,16 @@ C:\Users\User\OneDrive\桌面\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\De
 C:\Users\User\OneDrive\桌面\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
 C:\Users\User\OneDrive\桌面\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form_Button.resources
 C:\Users\User\OneDrive\桌面\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form_TextBox.resources
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form_Button.resources
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form_TextBox.resources
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.MidExam.resources
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
