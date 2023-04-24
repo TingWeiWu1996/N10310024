@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="123.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="123.Designer.cs">
+      <DependentUpon>123.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,11 +64,13 @@
     <Compile Include="Form_Button.Designer.cs">
       <DependentUpon>Form_Button.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_TextBox.cs">
+    <Compile Include="..\..\Form_TextBox.cs">
       <SubType>Form</SubType>
+      <Link>Form_TextBox.cs</Link>
     </Compile>
-    <Compile Include="Form_TextBox.Designer.cs">
+    <Compile Include="..\..\Form_TextBox.Designer.cs">
       <DependentUpon>Form_TextBox.cs</DependentUpon>
+      <Link>Form_TextBox.Designer.cs</Link>
     </Compile>
     <Compile Include="MidExam.cs">
       <SubType>Form</SubType>
@@ -72,14 +80,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="123.resx">
+      <DependentUpon>123.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Button.resx">
       <DependentUpon>Form_Button.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_TextBox.resx">
+    <EmbeddedResource Include="..\..\Form_TextBox.resx">
       <DependentUpon>Form_TextBox.cs</DependentUpon>
+      <Link>Form_TextBox.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="MidExam.resx">
       <DependentUpon>MidExam.cs</DependentUpon>
