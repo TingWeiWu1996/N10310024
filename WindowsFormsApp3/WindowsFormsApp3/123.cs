@@ -33,10 +33,10 @@ namespace WindowsFormsApp3
             }
             finally
             {
-               
+                MessageBox.Show("Try-Catch結束");  
             }
 
-            label1.Text=(add1 + add2).ToString();
+            label3.Text=(add1 + add2).ToString();
         }
     }
 }

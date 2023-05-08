@@ -29,5 +29,17 @@ namespace WindowsFormsApp3
             Form midExam = new MidExam();
             midExam.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form button3 = new _123();
+            button3.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form button4 = new FormTimer();
+            button4.Show();
+        }
     }
 }
