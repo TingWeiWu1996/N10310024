@@ -38,5 +38,71 @@ namespace WindowsFormsApp3
 
             label3.Text=(add1 + add2).ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int add3 = 0, add4 = 0;
+            try
+            {
+                add3 = Int32.Parse(textBox3.Text);
+                add4 = Int32.Parse(textBox4.Text);
+            }
+            catch (SystemException)
+            {
+                MessageBox.Show("請輸入數字");
+                add3 = 0;
+                add4 = 0;
+            }
+            finally
+            {
+                MessageBox.Show("Try-Catch結束");
+            }
+
+            label6.Text = (add3 - add4).ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int add5 = 0, add6 = 0;
+            try
+            {
+                add5 = Int32.Parse(textBox5.Text);
+                add6 = Int32.Parse(textBox6.Text);
+            }
+            catch (SystemException)
+            {
+                MessageBox.Show("請輸入數字");
+                add5 = 0;
+                add6 = 0;
+            }
+            finally
+            {
+                MessageBox.Show("Try-Catch結束");
+            }
+
+            label9.Text = (add5 * add6).ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int add7 = 0, add8 = 0;
+            try
+            {
+                add7 = Int32.Parse(textBox7.Text);
+                add8 = Int32.Parse(textBox8.Text);
+            }
+            catch (SystemException)
+            {
+                MessageBox.Show("請輸入數字");
+                add7 = 0;
+                add8 = 0;
+            }
+            finally
+            {
+                MessageBox.Show("Try-Catch結束");
+            }
+
+            label12.Text = (add7 / add8).ToString();
+        }
     }
 }

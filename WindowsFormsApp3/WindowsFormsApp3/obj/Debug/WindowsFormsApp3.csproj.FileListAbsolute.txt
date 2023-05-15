@@ -26,3 +26,4 @@ C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\Win
 C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
 C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3._123.resources
 C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.FormTimer.resources
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form3.resources

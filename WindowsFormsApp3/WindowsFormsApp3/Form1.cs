@@ -41,5 +41,11 @@ namespace WindowsFormsApp3
             Form button4 = new FormTimer();
             button4.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form3 = new Form3();
+            form3.Show();
+        }
     }
 }
