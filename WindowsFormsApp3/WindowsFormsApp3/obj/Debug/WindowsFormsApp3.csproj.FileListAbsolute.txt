@@ -44,3 +44,4 @@ C:\Users\user\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\Wind
 C:\Users\user\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 C:\Users\user\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\MEGAS\Desktop\N10310024\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form_Panel.resources

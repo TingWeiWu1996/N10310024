@@ -47,5 +47,11 @@ namespace WindowsFormsApp3
             Form form3 = new Form3();
             form3.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form form = new Form_Panel();
+            form.Show();
+        }
     }
 }

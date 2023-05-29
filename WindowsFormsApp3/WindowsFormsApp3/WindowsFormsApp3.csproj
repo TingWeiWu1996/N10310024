@@ -85,6 +85,12 @@
       <DependentUpon>Form_TextBox.cs</DependentUpon>
       <Link>Form_TextBox.Designer.cs</Link>
     </Compile>
+    <Compile Include="Form_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Panel.Designer.cs">
+      <DependentUpon>Form_Panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="MidExam.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <EmbeddedResource Include="..\..\Form_TextBox.resx">
       <DependentUpon>Form_TextBox.cs</DependentUpon>
       <Link>Form_TextBox.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Panel.resx">
+      <DependentUpon>Form_Panel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MidExam.resx">
       <DependentUpon>MidExam.cs</DependentUpon>
