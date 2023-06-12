@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.IO;
 namespace WindowsFormsApp3
 {
     public partial class Form_Panel : Form
@@ -15,6 +15,9 @@ namespace WindowsFormsApp3
         public Form_Panel()
         {
             InitializeComponent();
+            if (!File.Exists("OrferData.csv"))
+                File.AppendAllText("OrderData.csv", "時間,主食,配餐\n", Encoding.UTF8);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -22,12 +25,13 @@ namespace WindowsFormsApp3
             string mainFood = "";
             string sideFood = "";
 
-            foreach(Control c in panel2. Controls)
+            foreach (Control c in panel2.Controls)
             {
-                if(c is CheckBox)
+                if (c is CheckBox)
                 {
-                    CheckBox temp = (CheckBox)c;
-                    MessageBox.Show(temp.ToString());
+                    if (((CheckBox)c).Checked == true)
+                        mainFood += c.Text + " ";
+                  
                 }
             }
 
@@ -36,16 +40,29 @@ namespace WindowsFormsApp3
             {
                 if (c is CheckBox)
                 {
-                    /*if (((CheckBox)c).Checked == true)
-                    {
+                    if (((CheckBox)c).Checked == true)
                         sideFood += c.Text + " ";
-                    }*/
+
+
                 }
             }
-            MessageBox.Show("主食:" + mainFood + " 配菜:" + sideFood);
+          
+            DateTime currentDateTime = DateTime.Now;
+            string formateDateTime = currentDateTime.ToString("yyyy/MM/dd HH:mm:ss");
+
+            File.AppendAllText("OrderData.csv", formateDateTime + "," + mainFood + "," + sideFood + "\n");
+            MessageBox.Show("點餐成功!");
         }
 
+
+        
+
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
 
         }

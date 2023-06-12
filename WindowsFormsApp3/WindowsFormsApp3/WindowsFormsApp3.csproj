@@ -52,7 +52,6 @@
     <Compile Include="123.Designer.cs">
       <DependentUpon>123.cs</DependentUpon>
     </Compile>
-    <Compile Include="CheckBox.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
